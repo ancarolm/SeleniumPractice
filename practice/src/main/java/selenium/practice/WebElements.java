@@ -12,7 +12,7 @@ public class WebElements implements Elements {
 	
 	public WebElements() {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Usuario\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "../practice/src/main/resources/chromedriver.exe");
 
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		driver.manage().window().maximize();
@@ -23,7 +23,7 @@ public class WebElements implements Elements {
 	@Override
 	public WebElement getElement(String xPath) {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Usuario\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "../practice/src/main/resources/chromedriver.exe");
 
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		driver.manage().window().maximize();

@@ -33,7 +33,7 @@ public class Test {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Usuario\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "../practice/src/main/resources/chromedriver.exe");
 		//WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/");
@@ -52,7 +52,7 @@ public class Test {
 		WebElement password = driver.findElement(By.id("txtPassword"));
 		WebElement submit = driver.findElement(By.id("btnLogin"));*/
 		
-		File src = new File("C:\\Users\\Usuario\\Desktop\\Website\\TestSelenium.xlsx");
+		File src = new File("../practice/src/main/resources/TestSelenium.xlsx");
 		FileInputStream fis = new FileInputStream(src);
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		XSSFSheet sheet = workbook.getSheetAt(0);

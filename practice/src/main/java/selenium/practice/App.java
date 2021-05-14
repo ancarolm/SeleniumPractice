@@ -47,7 +47,7 @@ public class App implements WElements
     public App() throws Exception {
     	
     	
-    	src = new File("C:\\Users\\Usuario\\Desktop\\Website\\Variables.xlsx");
+    	src = new File("../practice/src/main/resources/Variables.xlsx");
 		
 		fis = new FileInputStream(src);
 
